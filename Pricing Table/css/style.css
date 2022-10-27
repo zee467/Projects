@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+.switch {
+    display: flex;
+    justify-content: no-space;
+    border: none;
+    border: 1.8px solid black;
+    border-radius: 25px;
+    width: 12rem;
+    height: 3rem;
+    line-height: 2.6rem;
+    text-align: center;
+    margin: 5rem auto 2rem;
+}
+
+.first-switch-half {
+    color: white;
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 25px;
+    width: 6rem;
+}
+
+.second-switch-half {
+    color: white;
+    background-color: lightseagreen;
+}
+
+.second-switch-half p { 
+    padding-left: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 6rem;
+}
+
+.sub-header {
+    position: relative;
+}
+
+.columns {
+    background-color: white;
+    padding: 3rem 0 1.8rem;
+}
+
+.price li {
+    list-style-type: none;
+    text-align: center;
+    padding: 0.8rem 6.2rem;
+}
+
+.item {
+    font-weight: bold;
+}
+
+.package-price {
+    font-size: 7rem;
+}
+
+.middle-package-price {
+    font-size: 7rem;
+    color: lightseagreen;
+}
+
+.header {
+    font-size: 1.8rem;
+}
+
+.currency{
+   position: absolute;
+   left: 9.2rem;
+   top: 2.5rem;
+   color: lightseagreen;
+   font-weight: bold;
+}
+
+#middle-currency {
+    position: absolute;
+    left: 9.2rem;
+    top: 2.5rem;
+    font-weight: bold;
+}
+
+.green-font, .month {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+#middle-month {
+    font-weight: bold;
+}
+
+button {
+    padding: 1rem 6rem;
+    border: none;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+}
+
+.white-background {
+    background-color: white;
+    color: lightseagreen;
+}
+
+.green-background {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.middle-div {
+    border: 2px solid;
+}
